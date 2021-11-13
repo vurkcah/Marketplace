@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Grocery Website Design Tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+
+<header class="header">
+
+    <a href="#" class="logo"><i class="fab fa-pagelines"></i> Фермервиль</a>
+
+    <nav class="navbar">
+        <a href="#home">Главная</a>
+        <a href="#features">Особенности</a>
+        <a href="#products">продукты</a>
+        <a href="#categories">категории</a>
+        <a href="#review">наши поставщики</a>
+        <a href="https://leadersofdigital.ru/">стать партнёром</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-1.png" alt="">
+            <div class="content">
+                <h3>Арбуз</h3>
+                <span class="price">10 руб.-</span>
+                <span class="quantity">кол-во : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-2.png" alt="">
+            <div class="content">
+                <h3>Лук</h3>
+                <span class="price">50 руб.</span>
+                <span class="quantity">кол-во : 4</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-3.png" alt="">
+            <div class="content">
+                <h3>курица</h3>
+                <span class="price">300 руб.-</span>
+                <span class="quantity">кол-во : 1</span>
+            </div>
+        </div>
+        <div class="total"> итог : 360 руб. </div>
+        <a href="#" class="btn">сделать заказ</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>Войти</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>Забыли пароль? <a href="#">click here</a></p>
+        <p>нету акаунта? <a href="#">создать сейчас</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3> <p:first-letter>С</p:first-letter>вежие и <span> натуральные</span>  продукты для вашего дома</h3>
+        <p>Мы сто&#x301ящие, потому что настоящие</p>
+        <a href="#products" class="btn">Купить сейчас</a>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- features section starts  -->
+
+<section class="features" id="features">
+
+    <h1 class="heading"> Наши <span>особенности</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/feature-img-1.png" alt="">
+            <h3><p:first-letter>С</p:first-letter>вежие и натуральные</h3>
+            <p><p:first-letter>Н</p:first-letter>аши продукты выращены в экологически благополучных районах со строгим соблюдением норм эко-земледелия и животноводства</p>
+            <a href="#" class="btn">Подробнее</a>
+        </div>
+
+        <div class="box">
+            <img src="image/feature-img-2.png" alt="">
+            <h3><p:first-letter>Б</p:first-letter>ыстрая доставка</h3>
+            <p><p:first-letter>М</p:first-letter>ы доставляем продукты собственной курьерской службой 7 дней в неделю с 9 утра до 12 ночи</p>
+            <a href="#" class="btn">Подробнее</a>
+        </div>
+
+        <div class="box">
+            <img src="image/feature-img-3.png" alt="">
+            <h3><p:first-letter>У</p:first-letter>добная оплата</h3>
+            <p><p:first-letter>М</p:first-letter>гновенная онлайн оплата и удобная связь с поставщиком при помощи телеграмм-бота</p>
+            <a href="#" class="btn">Подробнее</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- features section ends -->
+
+<!-- products section starts  -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> Продукция <span>Фермеров</span> </h1>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/product-1.png" alt="">
+                <h3>апельсин</h3>
+                <div class="price"> 150 руб/кг </div>
+                <a href="#" class="btn" >добавить в корзину</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-2.png" alt="">
+                <h3>Лук</h3>
+                <div class="price">60 руб/кг </div>
+                <a href="#" class="btn">добавить в корзину</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-3.png" alt="">
+                <h3>Свинина</h3>
+                <div class="price"> 150 руб/кг </div>
+              
+                <a href="#" class="btn">добавить в корзину</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-4.png" alt="">
+                <h3>Капуста</h3>
+                <div class="price"> 50 руб/кг </div>
+              
+                <a href="#" class="btn">добавить в корзину</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/product-5.png" alt="">
+                <h3>Картофель</h3>
+                <div class="price">70 руб/кг </div>
+                <a href="#" class="btn">добавить в корзину</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-6.png" alt="">
+                <h3>Авокадо</h3>
+                <div class="price"> 100 руб/кг </div>
+                <a href="#" class="btn">добавить в корзину</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/product-4.png" alt="">
+                <h3>4</h3>
+                <div class="price"> 100 руб/кг </div>
+                <a href="#" class="btn">добавить в корзину</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-4.png" alt="">
+                <h3>5</h3>
+                <div class="price">100 руб/кг </div>
+               
+                <a href="#" class="btn">добавить в корзину</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-4.png" alt="">
+                <h3>6</h3>
+                <div class="price"> 100 руб/кг</div>
+               
+                <a href="#" class="btn">добавить в корзину</a>
+            </div>
+
+
+            <div class="swiper-slide box">
+                <img src="image/product-7.png" alt="">
+                <h3>Морковь</h3>
+                <div class="price"> 35 руб/кг </div>
+               
+                <a href="#" class="btn">добавить в корзину</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/product-8.png" alt="">
+                <h3>Лимон</h3>
+                <div class="price"> 15 руб/кг </div>
+               
+                <a href="#" class="btn">добавить в корзину</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+<!-- products section ends -->
+
+<!-- categories section starts  -->
+
+<section class="categories" id="categories">
+
+    <h1 class="heading"> Категория  <span>продуктов</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/cat-1.png" alt="">
+            <h3>Овощи</h3>
+            <p>скидка до 10%</p>
+            <a href="#" class="btn">Подробнее</a>
+        </div>
+
+        <div class="box">
+            <img src="image/cat-2.png" alt="">
+            <h3>Фрукты</h3>
+            <p>скидка до 8%</p>
+            <a href="#" class="btn">Подробнее</a>
+        </div>
+
+        <div class="box">
+            <img src="image/cat-3.png" alt="">
+            <h3>Молочная продукция</h3>
+            <p>скидка до 12%</p>
+            <a href="#" class="btn">Подробнее</a>
+        </div>
+
+        <div class="box">
+            <img src="image/cat-4.png" alt="">
+            <h3>Мясная продукция</h3>
+            <p>скидка до 5%</p>
+            <a href="#" class="btn">Подробнее</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- categories section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> Наши <span>Фермеры</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/fermer1.png" alt="">
+                <p>Фермер – это человек, который имеет свое многопрофильное или узкопрофильное хозяйство, обладает необходимыми навыками работы с сельскохозяйственной техникой, а также физически здоров и вынослив..</p>
+                <h3>Василий Баженов</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/fermer2.png" alt="">
+                <p>Фермер – это человек, который имеет свое многопрофильное или узкопрофильное хозяйство, обладает необходимыми навыками работы с сельскохозяйственной техникой, а также физически здоров и вынослив..</p>
+                <h3>Влад Агарков</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/fermer3.png" alt="">
+                <p>Фермер – это человек, который имеет свое многопрофильное или узкопрофильное хозяйство, обладает необходимыми навыками работы с сельскохозяйственной техникой, а также физически здоров и вынослив..</p>
+                <h3>Иван Золоторев</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/fermer4.png" alt="">
+                <p>Фермер – это человек, который имеет свое многопрофильное или узкопрофильное хозяйство, обладает необходимыми навыками работы с сельскохозяйственной техникой, а также физически здоров и вынослив.</p>
+                <h3>Людмила Иванова</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> Стать <span>партнёром</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/perevoz.png" alt="">
+            <div class="content">
+                <div class="icons">
+                   
+                </div>
+                <h3>Стать нашим перевозщиком</h3>
+                <p>Работа по графику 5/5. Высокая з/п.</p>
+                <a href="#" class="btn">Оставить заявку</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/partner.png" alt="">
+            <div class="content">
+                <div class="icons">
+                 
+                </div>
+                <h3>Стать нашим поставщиком</h3>
+                <p>Вы можете управлять продажами с любого устройства.</p>
+                <a href="#" class="btn">Оставить заявку</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/operator.png" alt="">
+            <div class="content">
+                <div class="icons">
+                   
+                </div>
+                <h3>Хотите быть нашим оператором?</h3>
+                <p>Работа по графику 5/5. Высокая з/п.</p>
+                <a href="#" class="btn">Оставить заявку</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> Фермервиль <i class="fab fa-pagelines"></i> </h3>
+            <p>Наши соц.сети</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Наши контакты</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> evatutin@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Russia, Kursk - 305006 </a>
+        </div>
+
+        <div class="box">
+            <h3>Меню</h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Главная </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Особенности </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> продукты </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> категории </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> поставщики </a>
+        </div>
+
+        <div class="box">
+            <h3>напишите нам</h3>
+            <p>подпишитесь на нашу рассылку</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="подписаться" class="btn">
+            <img src="image/payment.png" class="payment-img" alt="">
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> By Winstrike </span>  </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
