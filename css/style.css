@@ -429,6 +429,7 @@ section{
    font-size: 2rem;
    color:var(--black);
    line-height: 1.8;
+   text-transform: lowercase;
 }
 
 .categories .box-container .box p{
@@ -436,6 +437,7 @@ section{
     color:var(--light-color);
     line-height: 1.8;
     padding:1rem 0;
+    text-transform: lowercase;
 }
 
 .review .review-slider{
@@ -469,12 +471,14 @@ section{
     line-height: 1.8;
     color:var(--light-color);
     font-size: 1.5rem;
+    text-transform: lowercase;
 }
 
 .review .review-slider .box h3{
     padding-bottom: .5rem;
     color:var(--black);
     font-size: 2.2rem;
+    
 }
 
 .review .review-slider .box .stars i{
@@ -533,6 +537,7 @@ section{
     color:var(--black);
     font-size: 2.2rem;
     padding:.5rem 0;
+    text-transform: lowercase;
 }
 
 .blogs .box-container .box .content p{
@@ -540,6 +545,7 @@ section{
     color:var(--light-color);
     font-size: 1.5rem;
     padding:.5rem 0;
+    text-transform: lowercase;
 }
 
 .footer{
@@ -556,6 +562,7 @@ section{
     font-size: 2.5rem;
     color:var(--black);
     padding:1rem 0;
+    text-transform: lowercase;
 }
 
 .footer .box-container .box h3 i{
@@ -584,6 +591,7 @@ section{
     font-size: 1.5rem;
     color:var(--light-color);
     padding:1rem 0;
+    text-transform: lowercase;
 }
 
 .footer .box-container .box .share a{
