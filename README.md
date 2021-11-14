@@ -30,6 +30,7 @@
  Логин - test_post2021@mail.ru
  Пароль - &ght7889lo 
 
+Ссылка на телеграмм бота: https://t.me/fermervilBot
 
 
 Разработчики
