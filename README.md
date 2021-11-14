@@ -18,7 +18,7 @@
 
 1) HTML, CSS
 2) javaScript
-3)PHP
+3) PHP
 4) Python
 
 ссылка на рабочий прототип:http://s419580.smrtp.ru/
